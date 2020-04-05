@@ -1,0 +1,502 @@
+/* styles for all the device */
+
+#navbarNavAltMarkup {
+    background-color: #fff;
+    padding: 20px 40px 30px;
+    text-align: center;
+    margin-top: 10px;
+}
+#navbarNavAltMarkup .main-menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#navbarNavAltMarkup .main-menu a {
+    display: inline-block;
+    color: #000;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 31px;
+    margin: 0 10px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: lowercase;
+    padding: 0px 41px;
+}
+#navbarNavAltMarkup .main-menu li.shop-link.menu-item {
+    border: 0;
+    padding: 0;
+}
+#navbarNavAltMarkup .main-menu li.shop-link.menu-item a {
+    border: 1px solid;
+    margin-top: 8px;
+}
+#navbarNavAltMarkup .main-menu li.current-menu-item a {
+    color: #0056b3;
+}
+.single-post .featured_post_thumbnail {
+    height: auto;
+}
+.single-post .featured_post_thumbnail .featured_thumb_inner {
+    position: static;
+}
+
+
+
+
+/* Large devices (desktops, less than 1200px) */
+@media (min-width: 1400px) {
+    #site-header .container {
+        max-width: 1310px;
+    }
+    .single-post .featured_post_thumbnail .featured_thumb_inner {
+        margin-left: -28%;
+    }
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+    .featured_post .post-content h2 {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .featured_post .post-content h2 a {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .featured_post .post-content {
+        margin-top: 30px;
+    }
+    .event-newslater.subscription_form {
+        margin-top: 15px;
+    }
+    .event-content-title h3 {
+        margin-top: 20px;
+    }
+}
+
+/* tablet devices */
+@media (max-width: 991.98px){
+    
+    .navbar-nav.nav_desktop {
+        display: none;
+    }
+    .header-right-wrapper {
+        flex-direction: row-reverse;
+        justify-content: flex-start;
+    }
+    .main-menu-wrapper nav.navbar {
+        padding: 0;
+        padding-left: 15px;
+    }
+    .main-menu-wrapper nav.navbar button {
+        border: 2px solid;
+    }
+    .main-menu-wrapper nav.navbar button:focus {
+        outline: 0;
+    }
+    ul.box-posts-list .box-posts-list-item {
+        line-height: 20px;
+    }
+    .box-posts-list i {
+        font-size: 12px;
+        margin-right: 7px;
+    }
+    ul.box-posts-list li a {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    ul.box-posts-list {
+        margin-top: 15px;
+    }
+    .post-white-box {
+        padding: 20px 0 7px;
+    }
+    .podcast-banner h2 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .podcast_item .post-content h2 a {
+        font-size: 20px;
+    }
+    .podcast_item .post-content p.date {
+        margin-top: 15px;
+    }
+    .about-subtitle h2 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .signle_podcast_sidebar .podcast_play {
+        padding-right: 0px;
+    }
+    .podcast_social_profiles_wrapper ul.site_social_profiles {
+        margin-top: 25px;
+    }
+    .related_podcasts_wrapper h3 {
+        line-height: 16px;
+    }
+    .related_podcasts_wrapper h3 a {
+        font-size: 16px;
+    }
+    .archive_post_heading .archive-description {
+        font-size: 20px;
+    }
+            
+    
+
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px){
+    .featured_post_thumbnail {
+        height: 300px;
+    }
+    .featured_post_thumbnail .featured_thumb_inner {
+        width: 100%;
+        left: 0;
+    }
+    article.blog-post {
+        margin-bottom: 50px;
+    }
+    article.blog-post {
+        text-align: center;
+    }
+    .post-white-box .box-extended-bordered {
+        display: none;
+    }
+    .post-white-box:before {
+        display: none;
+    }
+    .post-white-box:after {
+        display: none;
+    }
+    .post-white-box {
+        padding: 35px;
+        margin-top: 40px;
+    }
+    .post-white-box .side-image {
+        margin-top: 20px;
+    }
+    ul.box-posts-list .box-posts-list-item {
+        width: 100%;
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+    }
+    ul.box-posts-list .box-posts-list-item:last-child {
+        margin-bottom: 0;
+    }
+    .more_articles {
+        text-align: center;
+        padding: 0px 0 90px;
+    }
+    .right-sidebar {
+        padding-bottom: 30px;
+    }
+    .footer-widgets .widget.col {
+        width: 100% !important;
+        flex-basis: inherit;
+        margin: 20px 0;
+    }
+    .footer-widgets .widget-title {
+        margin-bottom: 5px;
+    }
+    .event-content-title {
+        padding-top: 20px;
+    }
+    .want-us-to {
+        margin: 40px 0;
+    }
+    p.event-date {
+        margin-bottom: 15px;
+    }
+    .podcast-banner-thumb {
+        margin-bottom: 40px;
+    }
+    .about-description-image {
+        margin-top: 40px;
+    }
+    .podcast-single-post .post-content > h2 {
+        margin-top: 50px;
+    }
+    .related_podcasts_wrapper .row article.col {
+        width: 100% !important;
+        flex-basis: initial;
+        margin-bottom: 50px;
+    }
+    .related_podcasts_wrapper .row article.col:last-child {
+        margin-bottom: 0px;
+    }
+    .contact-contain {
+        margin-top: 80px;
+        margin-bottom: 60px;
+    }
+    body.archive .right-sidebar {
+        margin-top: 70px;
+    }
+    .author-sidebar {
+        margin-top: 70px;
+    }
+    .profile_pictur_wrapper {
+        flex-direction: column;
+    }
+    .profile_pictur_wrapper .author_quote {
+        margin-top: 25px;
+        text-align: center;
+    }
+	.author-sidebar.mobile_author_sidebar:before {
+		display: none;
+	}
+	.author-sidebar.mobile_author_sidebar {
+		margin-bottom: 80px;
+	}
+
+
+
+
+}
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px){
+    .featured_post_thumbnail {
+        height: 250px;
+    }
+    .podcast_social_profiles_wrapper ul.site_social_profiles {
+        margin-top: 10px !IMPORTANT;
+        margin-bottom: 20px;
+    }
+    #podcast-page-banner {
+        padding: 50px 0px 30px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1399px) and (min-width: 1200px) {
+    .featured_post_thumbnail {
+        height: 300px;
+    }
+    .featured_post_thumbnail .featured_thumb_inner {
+        width: 150%;
+        left: 0;
+    }
+    .post-white-box:before {
+        left: -4%;
+        width: 108%;
+    }
+    .post-white-box .box-extended-bordered {
+        width: 108%;
+        left: -4%;
+    }
+    
+}
+@media only screen and (max-width: 1199px) and (min-width: 992px) {
+    .featured_post_thumbnail {
+        height: 280px;
+    }
+    .featured_post_thumbnail .featured_thumb_inner {
+        width: 150%;
+        left: 0;
+    }
+    .post-white-box:before {
+        left: -4%;
+        width: 108%;
+    }
+    .post-white-box .box-extended-bordered {
+        width: 108%;
+        left: -4%;
+    }
+    
+}
+
+@media only screen and (max-width: 991px) and (min-width: 767px){
+    .post-white-box:before {
+        left: -4%;
+        width: 108%;
+    }
+    .post-white-box .box-extended-bordered {
+        width: 108%;
+        left: -4%;
+    }
+    .podcast-btn {
+        font-size: 12px;
+        letter-spacing: 0px;
+    }
+}
+
+
+@media only screen and (max-width: 991px) and (min-width: 768px){
+    .featured_post_thumbnail {
+        height: 220px;
+    }
+    .featured_post_thumbnail .featured_thumb_inner {
+        width: 180%;
+        left: 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/*=======================================
+*** Styles of maruf vai
+=======================================*/
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    .blog-post .post-content h2 a,
+    .blog-post .post-content h2{
+        font-size: 15px;
+        line-height: 16px;
+    }
+    .blog-post .post-content h4 a,
+    .blog-post .post-content h4{
+        font-size: 12px;
+        line-height: 14px;
+    }
+}
+
+
+
+/* Event Page */
+@media (max-width: 575.98px) {
+    .event-content-title h3 {
+        margin-top: 28px;
+    }
+    #event-header {
+        padding: 0px;
+    }
+    .event-content h5.event-more {
+        margin-bottom: 40px;
+    }
+}
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+}
+
+
+/* about page */
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    #about-header .container .site_social_profiles_wrapper {
+        right: 12px;
+    }
+    .about-description-title h2 {
+        margin-left: 0px;
+    }
+    .about-description-text p {
+        margin-left: 0px;
+    }
+    .about-description-text img {
+         margin-left: 0px;
+    }
+    .about-description-subtile {
+        margin-left: 0px; 
+    }
+    
+    p.about-description-subtile-name{
+        margin-bottom:50px;
+    }
+    .connect-content {
+        margin: 0;
+    }
+    .connect-vartical-line {
+        display: none;
+    }
+    .writers-border {
+        margin: 0;
+        padding: 0;
+    }
+    .writers-title h4 {
+        padding-left: 13px;
+    }
+    .want-to-connect p {
+        padding-bottom: 20px;
+    }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    #about-header .container .site_social_profiles_wrapper {
+        right: 12px;
+    }
+    .about-description-title h2 {
+        margin-left: 0px;
+    }
+    .about-description-text p {
+        margin-left: 0px;
+    }
+    .about-description-text img {
+         margin-left: 0px;
+    }
+    .about-description-subtile {
+        margin-left: 0px; 
+    }
+    
+    p.about-description-subtile-name{
+        margin-bottom:50px;
+    }
+    .connect-content {
+        margin: 0;
+    }
+    .connect-vartical-line {
+        display: none;
+    }
+    .writers-border {
+        margin: 0;
+        padding: 0;
+    }
+    .writers-title h4 {
+        padding-left: 13px;
+    }
+    .want-to-connect p {
+        padding-bottom: 20px;
+    }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    .about-description-text p {
+        margin-left: 0;
+    }
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+    .about-description-text p {
+        margin-left: 0;
+    }
+}
